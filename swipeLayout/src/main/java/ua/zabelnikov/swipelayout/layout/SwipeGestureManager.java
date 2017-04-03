@@ -2,7 +2,6 @@ package ua.zabelnikov.swipelayout.layout;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
@@ -151,7 +150,6 @@ public class SwipeGestureManager implements View.OnTouchListener {
                 return false;
             }
         }
-        Log.d("Motion", String.valueOf(event.getActionMasked()));
         return true;
     }
 
